@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #ecf0f1;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #00000040;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #00000030;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ffeaa7;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-one,
+.line-two {
+    display: flex;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 6px solid #ffffffcc;
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+.red {
+    background-color: #e74c3c;
+}
+
+.yellow {
+    background-color: #f1c40f;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.purple {
+    background-color: #9b59b6;
+}
+
+.flash {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 20px 5px #fff;
+}
+
+.userflash {
+    background-color: #111 !important;
+    box-shadow: 0 0 20px 5px #000;
+}
